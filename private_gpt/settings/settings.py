@@ -121,6 +121,10 @@ class LocalSettings(BaseModel):
             "`llama2` is the historic behaviour. `default` might work better with your custom models."
         ),
     )
+    local_model_folder: str = Field(
+        description="Path to local directory where the model is stored."
+        "It will be treated as an absolute path if it starts with /"
+    )
 
 
 class EmbeddingSettings(BaseModel):
