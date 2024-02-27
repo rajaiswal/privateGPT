@@ -5,8 +5,8 @@ llm:
   tokenizer: microsoft/phi-2
 
 local:
-  prompt_style: "chatml"
-  llm_hf_repo_id: TheBloke/dolphin-2_6-phi-2-GGUF
-  llm_hf_model_file: dolphin-2_6-phi-2.Q5_K_M.gguf
+  prompt_style: "default"
+  llm_hf_repo_id: TheBloke/WestLake-7B-v2-GGUF
+  llm_hf_model_file: westlake-7b-v2.Q6_K.gguf
   embedding_hf_model_name: BAAI/bge-large-en-v1.5
   local_model_folder: /Users/raj/Temp/llm-models
